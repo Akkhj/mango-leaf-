@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
-model = tf.keras.models.load_model("mango_leaf_model.h5")
+model = tf.keras.models.load_model("mango_leaf_model.keras")
 
 with open("classes.json") as f:
     class_indices = json.load(f)
